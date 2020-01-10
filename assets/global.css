@@ -31,7 +31,6 @@ input:not([type]), [type="text"], [type="email"], [type="number"], [type="search
     margin: .5rem;
     padding: .75rem;
 }
-
 button, html [type="button"], [type="reset"], [type="submit"] {
     -webkit-appearance: button;
 }
@@ -45,7 +44,10 @@ button, [type="button"], [type="submit"], [type="reset"], a.button, label.button
     margin: .15rem 0;
     text-decoration: none;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.2s;
+}
+button:focus, [type="button"]:focus{
+    background: #eaeaea;
 }
 input {
     overflow: visible;
@@ -65,7 +67,13 @@ h1{
     background-color: green;
     color: white;
 }
+.green:focus{
+    background-color: #007700;
+}
 .red{
     background-color: darkred;
     color: white;
+}
+.red:focus{
+    background-color: #7c0000;
 }
