@@ -1,0 +1,71 @@
+html, * {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    font-size: 16px;
+}
+* {
+    font-size: 1rem;
+}
+body {
+    margin: .75rem;
+}
+form, .form {
+    background: #f0f0f0;
+    color: #111;
+    border: .0625rem solid #ddd;
+    border-radius: .125rem;
+    padding: .5rem;
+}
+select {
+    max-width: 100%;
+}
+input:not([type]), [type="text"], [type="email"], [type="number"], [type="search"], [type="password"], [type="url"], [type="tel"], [type="checkbox"], [type="radio"], textarea, select {
+    box-sizing: border-box;
+    background: #f8f8f8;
+    color: #111;
+    border: .0625rem solid #ddd;
+    border-radius: .125rem;
+    margin: .5rem;
+    padding: .75rem;
+}
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button;
+}
+button, [type="button"], [type="submit"], [type="reset"], a.button, label.button, .button, a[role="button"], label[role="button"], [role="button"] {
+    display: inline-block;
+    background: #f8f8f8;
+    color: #111;
+    border: .0625rem solid #ddd;
+    border-radius: .125rem;
+    padding: .25rem .75rem;
+    margin: .15rem 0;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+input {
+    overflow: visible;
+}
+h1{
+    font-size: 1.5rem;
+    margin: .5rem 0;
+}
+.button-group{
+    
+}
+.big-btn{
+    padding: 1rem 1.75rem;
+    width:100%;
+}
+.green{
+    background-color: green;
+    color: white;
+}
+.red{
+    background-color: darkred;
+    color: white;
+}

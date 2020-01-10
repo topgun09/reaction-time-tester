@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <title>Reaction Timer</title>
+        <meta name="Description" content="Take the reaction timer test" />
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/global.css">
+    </head>
+    <body>
+        
+        <div class="content" id="container">
+            
+            <div class="form" name="response" id="response" >
+                
+                <h1>Reaction Timer</h1>
+                
+                <div>Click <em>'Stop'</em> when the background changes</div>
+
+                <br>
+                
+                <div class="button-group">
+                    <button class="big-btn green" onclick="startit()">Start</button>
+                    
+                    <button class="big-btn red" onMouseDown="stopTest()">Stop</button>
+                </div>
+                  
+            </div>
+            
+        </div>
+        
+        <script src="assets/main.js"></script>
+        
+    </body>
+</html>
